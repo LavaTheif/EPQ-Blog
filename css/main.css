@@ -1,15 +1,18 @@
 body{
     min-width: 800px;
     background-color: #6bddff;
-    background: #77ffd0 linear-gradient(135deg, #6bddff80 0%, #4be3ff 25%, #00bfffb3 50%, #4be3ff 75%, #6bddff80 100%) no-repeat fixed
+    background: #77ffd0 linear-gradient(135deg, #6bddff80 0%, #4be3ff 25%, #00bfffb3 50%, #4be3ff 75%, #6bddff80 100%) no-repeat fixed;
     /*background: #0085ff linear-gradient(45deg, #6bddff80 0%, #4be3ff 25%, #9bfff2d6 50%, #4be3ff 75%, #6bddff80 100%) no-repeat fixed;*/
+    height: 100%;
+    width: 100%;
+    position: fixed;
 }
 
 h1 u{
     text-align: center;
     position: absolute;
     top: 100px;
-    color: rgba(173, 255, 47, 0.75);
+    color: #212121bf;
     /*#cbe7ff;*/
     /*min-width: 800px; */
     width: 1000px;
