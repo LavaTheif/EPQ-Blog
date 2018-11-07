@@ -1,7 +1,7 @@
 ---
 name: Comment
-about: "<Insert page ID>"
+about: "Please put the page ID as the Title"
 
 ---
 
-Type here...
+Type comment here...
