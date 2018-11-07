@@ -5,7 +5,7 @@ body{
     /*background: #0085ff linear-gradient(45deg, #6bddff80 0%, #4be3ff 25%, #9bfff2d6 50%, #4be3ff 75%, #6bddff80 100%) no-repeat fixed;*/
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: inherit;
 }
 
 h1 u{
@@ -34,22 +34,31 @@ h1 u{
     text-align: center;
 }
 
+.home-box{
+    width: calc(50% - 125px);
+    min-width: 300px;
+    min-height: 350px;
+    max-height: 500px;
+    max-width: 450px;
+    overflow-y: scroll;
+    text-align: center;
+}
+.blog-box{
+    width: calc(100% - 510px);
+    left: 100px;
+    right: 100px;
+    padding: 30px 250px 30px 30px;
+}
+
 .container{
     border: 3px #006bff dashed;
     background-color: #9eecff9c;
     position: absolute;
     top: 350px;
-    width: calc(50% - 125px);
-    min-width: 300px;
-    min-height: 350px;
-    max-height: 500px;
     /*width: auto;*/
     height: auto;
     border-radius: 10px;
-    text-align: center;
-    overflow-y: scroll;
     margin-bottom: 50px;
-    max-width: 450px;
 }
 
 .recent-posts{
@@ -95,4 +104,30 @@ a:active {
 
 .other{
      right: 100px;
+}
+
+.comment-box{
+    background: rgba(0, 107, 255, 0.11);
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgba(0, 23, 245, 0.1);
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -125px;
+    margin-bottom: 25px;
+}
+.comment-box:hover{
+    background: #006bff;
+    color: wheat;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    right: 5px;
+    position: absolute;
+    margin-top: -100px;
 }
